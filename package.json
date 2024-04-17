@@ -13,9 +13,17 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.3.1"
+    "mongoose": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KlevisHavolli/Farmaci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KlevisHavolli/Farmaci/issues"
+  },
+  "homepage": "https://github.com/KlevisHavolli/Farmaci#readme"
 }
