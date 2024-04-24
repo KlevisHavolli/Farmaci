@@ -1,5 +1,8 @@
 .conainer{
-
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
     display: flex;
     background: white;
     padding-bottom: 30px;
@@ -61,4 +64,32 @@
     outline: none;
     color: #797979;
     font-size: 19px;
+}
+
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.sumbit-container{
+    display: felx;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: ;
 }
