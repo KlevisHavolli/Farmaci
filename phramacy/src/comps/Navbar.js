@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./Navbar.css";
 import {Link} from
-"react-router-dom"
+"react"
 
 
 class Navbar extends Component{
@@ -12,8 +12,8 @@ class Navbar extends Component{
 
                 <ul className="nav-menu">
                     <li>
-                        <Link>
-                        <i class="fa-light fa-house"></i>Home</Link>
+                        <a>
+                        <i class="fa-light fa-house"></i>Home</a>
                     </li>
                 </ul>
             </nav>
